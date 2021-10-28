@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Restaurante</title>
+    </head>
+    <body>
+        <h1>Restaurante</h1>
+        <h3>Elija su menu personalizado</h3>
+        <form action="Formulario terminado/formularioTerminado.html">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="apellidos">Apellidos</label><br>
+                <input type="text" id="apellidos" name="apellidos"><br>
+                <label for="domicilio">Domicilio</label><br>
+                <input type="text" id="domicilio" name="domicilio"><br>
+                <label for="localidad">Localidad</label><br>
+                <input type="text" id="localidad" name="localidad"><br>
+                <label for="cpostal">Código postal</label><br>
+                <input type="number" id="cpostal" name="cpostal"><br>
+                <label for="telefono">Teléfono</label><br>
+                <input type="number" id="telefono" name="telefono"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Entrega</legend>
+                <input type="radio" id="domicilio" name="Recogida">
+                <label for="domicilio">Entrega a domicilio</label><br>
+                <input type="radio" id="local" name="Recogida">
+                <label for="local">Recogida en local</label><br>
+            </fieldset>
+            <fieldset>
+                <legend>¿Quiere que le enviemos nuestras ofertas?</legend>
+                <input type="checkbox" id="correo" name="correo">
+                <label for="correo">Enviar al correo</label><br>
+                <input type="checkbox" id="carta" name="carta">
+                <label for="carta">Enviar por carta al domicilio</label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Elija su menu</legend>
+                <input type="radio" id="patatas" name="patatas">
+                <label for="patatas">Patatas a lo pobre --- 10€</label><br>
+                <input type="radio" id="churrasco" name="churrasco">
+                <label for="churrasco">Churrasco a la parrilla --- 14€</label><br>
+                <input type="radio" id="alpujarreño" name="alpujarreño">
+                <label for="alpujarreño">Plato alpujarreño --- 12€</label><br>
+                <input type="radio" id="pasta" name="pasta">
+                <label for="pasta">Espaguetis --- 11€</label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Bebida</legend>
+                <label for="bebida">Elija su bebida</label>
+                <select id="bebida">
+                    <option value="seleccion" hidden>Selecciona una opcion</option>
+                    <option value="cocacola">Coca-Cola</option>
+                    <option value="fanta">Fanta</option>
+                    <option value="aquarius">Aquarius</option>
+                    <option value="agua">Agua</option>
+                    <option value="nestea">Nestea</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Salsa</legend>
+                <select id="salsa" size="4">
+                    <option value="bbq">Barbacoa</option>
+                    <option value="mayonesa">Mayonesa</option>
+                    <option value="ketchup">Ketchup</option>
+                    <option value="blanca">Salasa blanca</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Sugerencias</legend>
+                <p>Si tiene alguna sugerencia, déjela por aquí</p>
+                <textarea name="sugerencia" rows="10" cols="60"></textarea>
+            </fieldset>
+            <br><br>
+            <input type="submit" name="Finalizar">
+            <br><br>
+        </form>
+    </body>
+</html>

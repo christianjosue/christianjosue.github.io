@@ -1,0 +1,35 @@
+div{
+    text-align: center;
+}
+div.cabecera{
+    background-color: gray;
+    clear: both;
+    padding: 15px;
+}
+#a{
+    background-color:cyan;
+    position: relative;
+    height: 300px;
+    float: left;
+    width: 20%;
+}
+#b{
+    background-color: khaki;
+    position: relative;
+    height: 300px;
+    float: left;
+    width: 50%;
+}
+#c{
+    background-color: firebrick;
+    position: relative;
+    height: 300px;
+    float: left;
+    width: 30%;
+}
+div.pie{
+    background-color: indianred;
+    position: relative;
+    padding: 15px;
+    clear: both;
+}

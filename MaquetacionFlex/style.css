@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: dodgerblue;
+    padding: 20px;
+    margin: 5px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    border: 1px solid dodgerblue;
+    margin: 5px;
+}
+
+.inside{
+    background-color: dodgerblue;
+    margin: 1%;
+    padding: 18%;
+}
+
